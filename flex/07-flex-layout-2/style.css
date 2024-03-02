@@ -28,10 +28,56 @@ body {
   border-radius: 4px;
 }
 
-/* solution  */
+/* solution */
 
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.middle {
+  display: flex;
+  flex: auto;
+}
+
+.sidebar {
+  display: flex;
+  min-width: 300px;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+}
+
+.sidebar ul li a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  flex-basis: 300px;
+  padding: 16px;
 }
